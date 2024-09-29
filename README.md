@@ -1,2 +1,2 @@
-# pakilanshakkikerho.github.io
+# afshakki.github.io
 pakilan shakkikerho
