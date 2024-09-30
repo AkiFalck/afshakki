@@ -8,7 +8,7 @@ body {
 header {
     color: rgb(0, 0, 0);
     background-color: rgb(201, 201, 201);
-    padding: 1em;
+    padding: 1.3em;
     text-align: center;
     font-size: 1.5em;
     text-shadow: rgb(71, 71, 71) 2px 2px 2px;
@@ -16,6 +16,23 @@ header {
     border-color: rgb(0, 0, 0);
     border-width: 2px;
     border-style: solid;
+}
+
+.header_img {
+    position: absolute;
+    right: 20px;
+    width: 120px;
+    height: auto;
+}
+
+@media screen and (max-width: 460px) {
+    .header_img {
+        position: absolute;
+        right: 5px;
+        width: 60px;
+        height: auto;
+    }
+
 }
 
 ul {
@@ -111,7 +128,7 @@ nav {
 }
 
 
-@media (max-width: 1010px) {
+@media (max-width: 1160px) {
     .burger {
         display: block;
     }
