@@ -2,7 +2,6 @@ html,
 body {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: larger;
     background-color: rgb(175, 175, 175);
     height: 100%;
     margin: 0;
@@ -149,7 +148,6 @@ nav {
         display: none;
         flex-direction: column;
         width: 100%;
-        position: center;
         top: 60px;
         left: 0;
         z-index: 1;
@@ -171,7 +169,6 @@ footer {
     display: block;
     background-color: rgb(201, 201, 201);
     color: black;
-    text-size-adjust: 1.5em;
     text-align: center;
     padding: 1.3em;
     border-top: 2px solid black;
@@ -181,7 +178,7 @@ footer {
 
 li {
     background-color: rgb(71, 32, 0);
-    display: auto;
+    display: inline;
     margin: 0 1em;
     border-color: sienna;
     border-width: 2px;
