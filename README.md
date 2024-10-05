@@ -1,3 +1,3 @@
 # afshakki.github.io
 pakilan shakkikerho
-https://akifalck.github.io/afshakki.github.io/
+https://akifalck.github.io/afshakki
