@@ -24,10 +24,8 @@ header {
     text-align: center;
     font-size: 1.5em;
     text-shadow: rgb(71, 71, 71) 2px 2px 2px;
-    border-radius: 4px;
-    border-color: rgb(0, 0, 0);
-    border-width: 2px;
-    border-style: solid;
+border-bottom: 2px solid black;
+
 }
 
 .header_img {
@@ -139,7 +137,6 @@ nav {
     gap: 12px;
 }
 
-
 @media (max-width: 1160px) {
     .burger {
         display: block;
@@ -176,11 +173,7 @@ footer {
     text-size-adjust: 1.5em;
     text-align: center;
     padding: 1.3em;
-    border-radius: 4px;
-    border-color: rgb(0, 0, 0);
-    border-width: 2px;
-    border-style: solid;
-    position: relative;
+    border-top: 2px solid black;
     bottom: 0;
     flex-shrink: 0;
 }
